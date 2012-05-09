@@ -1,0 +1,1588 @@
+body {
+    color:#fff;
+    background:#000;
+}
+
+#LoginBar h3 {
+    background-color:#181818;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    bottom:-22px;
+    color:#F0F7FC;
+    font-size:11px;
+    line-height:20px;
+    margin-right:20px;
+    position:absolute;
+    right:0;
+    border:1px solid #555;
+    border-top:1px solid #181818;
+    padding:0 10px;
+}
+
+#LoginBar {
+    height:8px;
+}
+
+#LoginBar,#MemberBar {
+    background-color:#181818;
+    border-bottom:1px solid #555;
+    color:#A5CAE4;
+    position:relative;
+    z-index:1;
+}
+
+#MemberBar {
+    height:30px;
+    margin-bottom:7px;
+}
+
+#MemberBar li,.DiscussionInfo li,.HeaderProfileImg {
+    margin-top:3px;
+}
+
+#Menu {
+    margin-right:15px!important;
+    float:right;
+}
+
+.DiscussionsInfo {
+    margin-left:5px;
+}
+
+.DiscussionsInfo li {
+    display:inline;
+    float:left;
+    font-weight:700;
+}
+
+.DiscussionsInfo li a span,#MemberBar li span {
+    background:none repeat scroll 0 0 #1E79A7;
+    border-radius:3px 3px 3px 3px;
+    color:#EAF4FD;
+    font-size:10px;
+    font-weight:700;
+    margin:0 8px 0 2px;
+    padding:0 1px;
+}
+
+.DiscussionsInfo .TabLink {
+    line-height:normal;
+    font-weight:700;
+    padding:0!important;
+}
+
+.DiscussionsInfo .TabLink:link,.DiscussionsInfo .TabLink:visited {
+    background:none;
+    color:grey;
+}
+
+#Content {
+    float:none;
+    min-width:800px;
+    width:100%;
+    margin:12px 0 0;
+}
+
+.HeaderProfileImg {
+    position:relative;
+    float:right;
+    margin-right:5px;
+}
+
+.MainMenu a {
+    color:#666;
+    border:0 none;
+    font-size:11px;
+    display:block;
+    position:relative;
+    text-decoration:none;
+    white-space:nowrap;
+    padding:0 7px;
+}
+.PanelInfo .Heading{
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333',endColorstr='#000000')!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000)) !important; /* for webkit browsers */
+    background: -moz-linear-gradient(top,#333333, #000000) !important; /* for firefox 3.6+ */
+    zoom: 1;
+}
+
+.MainMenu li {
+    float:right;
+    font-weight:700;
+    list-style:none outside none;
+    position:relative;
+    text-align:left;
+    padding:0;
+}
+#NoPanel{
+    margin-top: 5px;
+}
+
+.DataList .Meta strong,.Tabs li a span,.MainMenu a span,.MainMenu li.Active a span,.MainMenu li.Highlight a:hover span {
+    background:none repeat scroll 0 0 #4EC14C;
+    color:#000;
+}
+
+.MainMenuImage img {
+    width:68px;
+    height:72px;
+}
+
+.DiscussionPhoto img {
+    width:96px;
+    height:96px;
+}
+
+.ToggleCat {
+    width:16px;
+    height:16px;
+    float:right;
+    margin-right:10px;
+}
+
+.Minus {
+    background:url(images/minus.png) no-repeat scroll left top transparent;
+}
+
+.Plus {
+    background:url(images/plus.png) no-repeat scroll left top transparent;
+}
+
+.QuickNavImage {
+    background:url(images/circle_arrow_down.png) no-repeat scroll left top transparent;
+    width:16px;
+    height:16px;
+    float:right;
+    margin-top:5px;
+    padding-right:5px;
+}
+
+div.AnswerTabs {
+    background:#333!important;
+}
+
+div.AnswerTabs li.Active a {
+    background:#222!important;
+}
+
+.MenuTitle.clicked {
+    background-position:34px -10px;
+}
+
+.MenuTitle {
+    background-image:url(images/white_arrow_sprite.png);
+    background-repeat:no-repeat;
+    background-position:34px -45px;
+    background-color:#282828!important;
+    border:none;
+    color:#FFF;
+}
+
+.Open .MenuTitle {
+    background-color:#222!important;
+}
+
+ul.MessageList div.Meta span.Votes {
+    right:-35px!important;
+}
+
+.Votes {
+    position:relative!important;
+    width:50px;
+    padding-top:10px!important;
+}
+
+span.Votes span {
+    background:none!important;
+    text-align:center;
+    margin-left:-1px;
+}
+
+span.Votes a {
+    background-color:#555!important;
+}
+
+.DiscussionsThread .DiscussionsTitle {
+    float:left;
+    padding-right:5px;
+}
+
+.DiscussionsThread .DiscussionsTitle a,.Profile .ItemContent .Title a,.Item a.Title {
+    font-weight:700!important;
+    color:#73D1FF;
+}
+
+.Meta span {
+}
+
+.AuthorArrow {
+    background:url(images/black_left_arrow.png) no-repeat transparent;
+    width:32px;
+    height:32px;
+    display:block;
+    line-height:0;
+    left:135px;
+    position:absolute;
+    top:10px;
+}
+
+.AuthorRibbon {
+    height:15px;
+    line-height:16px;
+    background:#222;
+    border:1px solid #555;
+    color:#000;
+}
+
+.Ribbon li {
+    border-radius:0 0 3px 3px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.25);
+    position:relative;
+}
+
+.Ribbon {
+    font-size:10px;
+    font-weight:700;
+    text-align:center;
+}
+
+.Ribbon li .left {
+    border-top-left-radius:3px;
+    left:-1px;
+}
+
+.Ribbon li .right {
+    border-top-right-radius:3px;
+    right:-1px;
+}
+
+.Ribbon li div {
+    height:4px;
+    position:absolute;
+    top:-4px;
+    width:4px;
+}
+
+.AuthorRibbon div {
+    background-color:#555;
+}
+
+.AuthorInfo {
+    background-color:#181818;
+    border-radius:0 0 4px 4px;
+    text-align:center;
+    font-size:13px;
+}
+
+.AuthorInfo ul {
+    background:#101010;
+    border-radius:2px;
+}
+
+.CommentInfo div.AvatarHolder {
+    background-color:#000;
+    border-radius:4px 4px 0 0;
+    padding:10px;
+}
+
+.CommentInfo img,#ProfileBox img {
+    background-color:#2F2F2F;
+    border:1px solid #131618;
+    border-radius:4px 4px 4px 4px;
+    vertical-align:middle;
+    padding:2px;
+}
+
+.CommentInfo img {
+    margin-left:3px;
+}
+
+.LastPostImage {
+    float:left;
+    padding-right:3px;
+    margin-top:0;
+    background:url(images/blue_arrow.png) no-repeat;
+    width:16px;
+    height:16px;
+}
+
+.LastPostImg {
+    position:relative;
+    display:block;
+}
+
+.CatInfo {
+    font-size:11px;
+}
+
+.CatInfo h1 {
+    margin-bottom:-5px;
+}
+
+.SubTableHeader td {
+    font-size:10px;
+    height:8px!important;
+    background:#222;
+}
+
+.SubCategoryHeadings {
+    clear:both;
+}
+
+#PagerMore {
+    background:none repeat scroll 0 0 #222;
+    margin-bottom:0!important;
+    border:none!important;
+}
+
+.Pager a:hover {
+    background-color:#757575!important;
+}
+
+.Ellipsis {
+    background-color:#353535!important;
+    color:#FFF!important;
+}
+
+#PagerAfter,#PagerBefore {
+    font-size:small;
+    line-height:15px;
+}
+
+.NumberedPager span,.NumberedPager a.Highlight,.Count {
+    background-color:#1E79A7;
+    color:#FFF;
+}
+
+.PanelInfo li.Heading {
+    color: #6C6C6C;
+}
+
+.Previous,.Next {
+    display:none!important;
+}
+
+.NumberedPager a:nth-last-child(2),.NumberedPager a:nth-last-child(1) {
+    border-right:none!important;
+}
+
+.NumberedPager a,.Ellipsis {
+    border-right:2px solid #000;
+}
+
+td.DiscussionsThread .NumberedPager {
+    float:left;
+    margin-top:-3px;
+    margin-left:8px;
+}
+
+.NumberedPager,.PrevNextPager,.Ellipsis {
+    background-color:#353535;
+    font-size:9px!important;
+    font-weight:700!important;
+}
+
+.NumberedPager a,.NumberedPager span,.Ellipsis {
+    padding:0 4px!important;
+}
+
+.NumberedPager a.Next,.NumberedPager span.Next,.Ellipsis,.NumberedPager a.Previous,.NumberedPager span.Previous {
+    line-height:1px!important;
+}
+
+.MessageMeta a {
+    color:#777!important;
+    font-size:11px;
+    padding-left:5px;
+}
+
+.defaultText {
+    color:#a1a1a1;
+}
+
+.defaultTextActive {
+    color:#666;
+    font-style:italic;
+}
+.Conversations,
+.ConversationsTabs,
+.Conversation{
+    margin-right: 250px;
+}
+
+.SearchBox {
+    border:1px solid #000;
+    background:#333;
+    border-radius:5px;
+    float:right;
+    line-height:15px;
+    position:relative;
+    margin:0;
+    padding:3px;
+}
+
+.SearchHeader {
+    margin-top:0;
+    margin-right:2px;
+}
+
+.SearchFinderImage {
+    border:none;
+    width:20px;
+    height:22px;
+    position:absolute;
+    margin-left:225px;
+    z-index:99;
+    background:url(images/search_tool.png) no-repeat scroll left top transparent;
+}
+
+.BodyInner {
+    background-color:#1A1A1A;
+    border-radius:5px 5px 5px 5px;
+    -moz-box-shadow:0 2px 8px 4px #4C4C4C;
+    -webkit-box-shadow:0 2px 8px 4px #4C4C4C;
+    box-shadow:0 2px 8px 4px #4C4C4C;
+    margin-bottom:20px;
+    min-width:800px;
+    padding:15px;
+
+}
+
+.DataList,.CategoryHeadings,#Panel {
+    -moz-box-shadow:0 4px 8px 4px #0C0C0C;
+    -webkit-box-shadow:0 4px 8px 4px #0C0C0C;
+    box-shadow:0 4px 8px 4px #0C0C0C;
+}
+
+.MessageList .Meta .Author a {
+    font-size:14px;
+}
+
+td.CommentInfo {
+    max-width:150px;
+    min-width:150px;
+    width:150px;
+    overflow:hidden;
+}
+
+td.CommentInfo .Meta {
+    padding:5px 10px 2px;
+}
+
+.MessageList .Item {
+    padding:0!important;
+}
+
+.CommentTable td {
+    min-height:100px;
+}
+
+td.CommentMessage {
+    padding-left:8px;
+    width:100%;
+    vertical-align:top;
+}
+
+.CategoryList .Depth2 {
+    padding-left:0!important;
+}
+
+#Head form input.InputBox {
+    margin-left:-150px;
+    width:350px!important;
+    height:20px!important;
+}
+
+#ProfileContainer {
+    margin-left:275px;
+}
+
+body.Profile #Panel {
+    width:250px!important;
+    float:left;
+    margin-top:15px;
+}
+
+body.Profile #Content {
+    min-width:100%;
+    max-width:100%;
+}
+
+.DiscussionButton {
+    float:left;
+    display:inline;
+}
+
+.PageNav {
+    padding:0;
+}
+/* Menu banner */
+
+#MenuBanner li{
+    display: inline;
+    padding-right: 5px;
+    padding: 5px 5px 4px 5px;
+}
+#MenuBanner a{
+    font-weight: bold;
+}
+#MenuBanner{
+    margin-bottom: -1px;
+}
+#MenuBanner .Active{
+    background: none repeat scroll 0 0 #181818;
+    position: relative;
+    z-index: 102;
+    height: 14px;
+    border: 1px solid #555555;
+    border-bottom: none;
+    border-radius: 5px 5px 0px 0px;
+}
+#MenuBanner li.Active{
+}
+
+/* End Menu banner */
+
+/** Ticker overfides **/
+.ticker-wrapper.has-js{
+    height: 0px;
+    margin: 0px;
+    width: inherit;
+}
+.left .ticker-controls{
+    position: absolute;
+    margin-left: -470px;
+    padding: 4px;
+}
+.ticker-title{
+    padding-top: 4px;
+    color: #80828C;
+    margin-left: 80px;
+}
+.ticker-content{
+    margin-left: 80px;
+}
+.ticker-controls{
+    display: inline;
+}
+.ticker,
+.ticker-content,
+.ticker-wrapper.has-js,
+.ticker-title,
+.ticker-swipe,
+.ticker-swipe span{
+    background-color: #181818;
+}
+
+
+/* end ticker overrides */
+
+.MessageForm .Tabs {
+    background:none repeat scroll 0 0 #333;
+}
+
+.ToggleFlyout {
+    right:450px;
+    text-align:left;
+}
+
+.AllCatListing .ToggleFlyout {
+    right:419px;
+    text-align:left;
+}
+
+#Panel .Header {
+    height:22px;
+    border-radius:4px 4px;
+}
+
+#ProfileBox .AvatarHolder {
+    background-color:#000;
+    border-radius:4px 4px 4px 4px;
+    float:left;
+    margin-right:4px;
+    padding:1px;
+}
+
+.Box h4 {
+    padding-left:5px;
+    color:#fff;
+}
+
+#ProfileBox,#ForumStatsBox {
+    line-height:13px;
+}
+
+.Box #UserName {
+    font-size:14px;
+    color:#00ACFF;
+    padding-bottom:4px;
+}
+
+#ProfileBox dd {
+    text-align:right;
+    padding-right:5px;
+}
+
+.TableBox {
+    width:100%;
+}
+
+#ForumStatsBox {
+    border-top:none;
+}
+
+.TableBox .CurrentTableHead {
+    width:300px!important;
+}
+
+.TableBox .CurrentNumbers {
+    width:100px!important;
+    text-align:right;
+}
+
+.TableBox .MonthTableHead {
+    width:50px!important;
+}
+
+.TableBox .Current {
+    width:300px;
+}
+
+.TableBox .Week li,.TableBox .Month li {
+    text-align:right;
+    color:#FFF;
+}
+
+.DiscussionCount {
+    float:right;
+    color:#777!important;
+    font-size:11px;
+    margin-right:10px;
+}
+
+.CommentMessage .UserSignature {
+    border-top:1px solid #656565!important;
+}
+
+.MessageInfo {
+    border-bottom:1px dotted #595959;
+    width:100%;
+    margin-top:-5px;
+    height:20px;
+}
+
+.DiscussionDate {
+    color:#555;
+    background:url(images/link.png) no-repeat;
+    margin-top:1px;
+    padding-left:20px;
+}
+
+.MessagePost {
+    margin-top:8px;
+}
+
+.DateCreated {
+    border-radius:2px;
+    font-size:10px;
+}
+
+.DateCreated img,.Meta img {
+    vertical-align:middle;
+}
+
+.CommentInfo .Meta span {
+    margin-left:-1px;
+}
+
+.Mine {
+    background:#1A1A1A;
+}
+
+.DataList .Activity .Excerpt a {
+    color:#73D1FF!important;
+}
+
+.ChildCategories {
+    text-align:left;
+    border-top:none;
+}
+
+.CategoryList .ProfilePhotoSmall {
+    margin-top:5px;
+}
+
+.LastAuthor {
+    padding-right:8px;
+    font-size:10px;
+    line-height:11px;
+}
+
+.LastCommentDate {
+    font-size:10px;
+    padding-left:5px;
+    color:#666;
+}
+
+.LastAuthorPhoto {
+    float:left;
+    display:block;
+    padding-right:5px;
+}
+
+.LatestPost .LastDiscussionTitle {
+    white-space:normal!important;
+}
+
+.Counts {
+    float:right;
+    background:none!important;
+    margin-top:-25px;
+    font-size:25px;
+}
+
+.CategoryDesc,.ChildCategories {
+    font-size:11px;
+}
+
+.LastAuthor,.LastCommentDate,.LastDiscussionTitle {
+    font-size:10px;
+}
+
+.Box {
+    font-size:11px;
+    background:#333;
+    border:1px solid #555;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    margin:0;
+    padding:6px;
+}
+#Panel {
+    float:right;
+    width:225px;
+}
+
+#BeforeFoot {
+    margin-top:40px;
+}
+
+#mainContainer {
+    float:left;
+    margin-right:-260px;
+    width:100%;
+}
+
+.AllCat {
+    line-height:15px;
+    border-collapse:separate;
+    table-layout:fixed;
+}
+
+.TableHeader td {
+    height:0!important;
+    font-family:Georgia, serif;
+    border:none!important;
+}
+
+.TableHeader .DiscussionsReplies {
+    width:60px!important;
+}
+
+div.MessageMeta {
+    display:inline;
+}
+
+.MessageMeta span {
+    border-right:1px solid #444;
+    padding-right:8px;
+}
+
+.MessageMeta span:last-child {
+    border-right:none;
+}
+
+.AllCat .CategoryName,.DiscussionsThread,.CatHeaders a {
+    padding-left:7px;
+}
+
+.CatHeaders a {
+    float:left;
+    color:#00AEFF;
+    font-size:13px!important;
+    display:inline!important;
+}
+.AllCat tr{
+
+}
+.AllCat,tr {
+    height:1em;
+    padding:1px 0 2px;
+    position: relative;
+}
+.AllCat{
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+.AllCat td {
+    vertical-align:middle;
+    height:35px;
+}
+
+.CategoryTitle a {
+    color:#73D1FF;
+}
+
+.BreadcrumbBar {
+    border-spacing:2px 50px;
+    float:right;
+    padding-right:10px;
+    color:#0070A6!important;
+    font-size:12px;
+    border-left:1px solid #666;
+    padding-left:5px;
+}
+
+.Breadcrumbs .Home {
+    float:left;
+    background:url(images/home.png) no-repeat scroll left top transparent;
+    width:16px;
+    height:16px;
+    margin-top:3px;
+}
+
+.Item .Author img {
+    margin-top:5px;
+    margin-left:5px;
+}
+
+.CategoryHeadings {
+    border-radius:4px 4px 0 0;
+    border-top:1px solid #222;
+    background:#222!important;
+    padding:8px 0!important;
+}
+
+.ProfileLargeImage {
+    width:90px;
+    height:90px;
+}
+
+.ProfileMainImage {
+    width:250px;
+    height:188px;
+}
+
+.LatestPostWrap .ProfilePhotoCategory {
+    padding-right:5px;
+}
+
+.UserQuote {
+    border-left:2px solid #73D1FF;
+}
+
+.LatestPost {
+    border-left:1px #000 dotted;
+    padding-left:8px;
+    width:260px;
+}
+
+.LatestPostWrap a {
+    color:#73D1FF;
+    font-weight:700;
+}
+
+.LastAuthor a,.Meta a {
+    color:#1E79A7;
+}
+
+.Headings .LatestPost {
+    border:none!important;
+}
+
+.Headings .ThreadCount {
+    font-size:14px!important;
+    border:none;
+    width:70px;
+    text-align:center;
+    padding:0!important;
+}
+
+.Headings .PostCount {
+    font-size:14px!important;
+    padding-right:2px!important;
+    border:none;
+    width:70px;
+    text-align:center;
+}
+
+.ExampleDescription {
+    font-size:10px!important;
+    clear:both;
+}
+
+.DiscussionsMeta {
+    font-size:12px;
+    line-height:12px;
+    width:50px;
+    display:inline-block;
+}
+
+.LastCommentBy {
+    padding-left:5px;
+    display:inline-block;
+}
+
+.DiscussionsThread {
+    min-width:200px;
+}
+
+td.DiscussionsBookmark {
+    border-left:1px #000 dotted;
+    vertical-align:middle;
+    text-align:center;
+    width:25px;
+    padding:0 3px;
+}
+
+.DataList .ItemContent {
+    margin:0 0 0 5px !important;
+}
+
+.DataList .ItemContent .Meta {
+    margin-left:-5px;
+}
+
+#Head {
+    clear:both;
+    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,#333333, #000000); /* for firefox 3.6+ */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333',endColorstr='#000000');
+    min-height:65px;
+    z-index:20;
+}
+
+#logo {
+    position:absolute;
+    z-index:50;
+}
+
+.top_border {
+    background:#000;
+    height:15px;
+}
+
+.top_border_container {
+    background-color:#000;
+    height:15px;
+}
+
+.circ_top_left {
+    float:left;
+    z-index:9999;
+    position:absolute;
+    margin-top:-10px;
+    margin-left:-2px;
+}
+
+.circ_top_right {
+    float:right;
+    z-index:9999;
+    position:relative;
+    margin-top:-10px;
+    margin-right:-2px;
+}
+
+.horz_border_both {
+    z-index:1;
+    position:relative;
+    height:5px;
+    background:url(http://mcuhq.com/mcuhq/images/website/col_border_horz.png) repeat-x;
+}
+
+#Frame {
+    min-height:100%;
+    height:auto!important;
+    margin:0 auto -142px;
+}
+
+html,body {
+    width:100%;
+    height:100%;
+    margin:0 auto -142px;
+}
+
+#Body {
+    font-family:Arial,Tahoma,Calibri,Verdana,Geneva,sans-serif;
+}
+
+a:hover {
+    color:#fff!important;
+}
+
+#Form_Form {
+    padding-bottom:10px;
+    background:#222;
+    border-right:none;
+    border-left:none;
+}
+
+div.Popup .Body,.Border .Content {
+    background:#222;
+    color:#FFF;
+}
+
+.Activities .DataList li {
+    background:#111;
+    border:1px solid #333;
+}
+
+#Form_Form,.MessageForm {
+    padding-bottom:30px;
+}
+
+#Form_StartConversation {
+    margin-top:25px;
+}
+
+#Foot div {
+    width:100%;
+    height:100px;
+}
+
+#Foot h6 {
+    color:#CCC;
+    font-size:smaller;
+    padding-top:8px;
+}
+
+#Foot {
+    padding:10px 0 0!important;
+}
+
+#FootInfo {
+    text-align:center!important;
+    font-size:small;
+    width:100%;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',endColorstr='#222222');
+    background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#222222)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,#000, #333333); /* for firefox 3.6+ */
+
+}
+
+#Push {
+    height:100px;
+}
+
+.Foot {
+    background-color:#222;
+    border-bottom:none;
+}
+
+.BreadcrumbsContainer {
+    background:#181818;
+    border-radius:0px 5px 5px 5px;
+    border:1px solid #555;
+    text-align:left;
+    clear: both;
+
+    -moz-box-shadow:0 2px 8px 4px #000;
+    -webkit-box-shadow:0 2px 8px 4px #000;
+    box-shadow:0 2px 8px 4px #000;
+
+}
+
+#BeforeFoot .BreadcrumbsContainer,
+.BreadRound{
+     border-radius:5px 5px 5px 5px; /* put border radius back for breadcrumb on bottom */
+}
+
+#BeforeFoot .BreadcrumbsContainer {
+    margin:0 5px;
+}
+
+.Breadcrumbs a {
+    color:#00ACFF;
+    font-size:11px;
+}
+
+.Breadcrumbs {
+    padding:2px;
+}
+
+.Tabs .SubTab {
+    margin:5px!important;
+    padding:1px 3px!important;
+}
+
+a.Bookmark,a.Bookmarked,a.Bookmarking {
+    background:url(images/star_sprite.png) top center no-repeat;
+}
+
+.AllCat .DiscussionsBookmark a.Bookmark {
+    position:absolute;
+    margin-top:-10px;
+    margin-left:-10px;
+}
+
+a.Bookmarked {
+    background-position:center center;
+}
+
+a.Bookmarking {
+    background-position:bottom center;
+}
+
+.User h1 {
+    color:#fff;
+    font-size:24px;
+    font-weight:400;
+    padding:10px;
+}
+.Box dl dt {
+    color:#555555;
+}
+
+.About dl{
+    background-color:#191919;
+    padding-left: 2px;
+}
+
+.Preview {
+    background:#222;
+    color:#FFF;
+    border:1px solid #444;
+}
+
+#DiscussionForm form,#ConversationForm form,#MessageForm {
+    background:#222;
+    color:#fff;
+    border:1px solid #444;
+}
+
+#MessageForm {
+    margin-top:15px;
+}
+
+#conversations_messages_index .Meta {
+    padding-top:7px;
+    padding-left:10px;
+}
+
+#conversations_messages_index .Message {
+    padding-left:10px;
+}
+
+div.Popup a:hover {
+    text-decoration:none;
+}
+
+body.Profile ul.Activities {
+    border-top:1px solid #333;
+}
+
+.DataList .Meta .Announcement {
+    background:#4242a9;
+    font-weight:400;
+}
+
+.DataList .Meta .Closed {
+    background:#bb3c3c;
+    font-weight:400;
+}
+
+.PanelInfo li {
+    background:#191919;
+    border:none;
+}
+
+body.Profile .PanelInfo {
+    border-bottom:1px solid #555;
+    margin:3px 0;
+}
+
+.DataList .Options,.MessageList .Options {
+    margin:7px 4px 0 0;
+}
+
+.PanelInfo .Active {
+    background:#333;
+    border:none;
+}
+
+.DataList .Item {
+    background:#151515;
+    border:1px solid #333;
+    border-top:none;
+    padding:1px 0;
+}
+
+.PanelInfo {
+    border:1px solid #555;
+}
+
+.DiscussionsThread .P {
+    display:inline-block;
+    vertical-align:text-top;
+    position:relative;
+    text-align:right;
+}
+
+.GotoPageLink {
+    display:inline;
+    background:url(images/white_down_arrow.png) no-repeat scroll 0;
+    width:16px;
+    height:16px;
+    padding:10px!important;
+}
+
+.GotoPageLinkPopDown {
+    display:none;
+    z-index:9999;
+    right:1px;
+    margin-top:12px;
+    position:absolute;
+    font-size:smaller;
+    background:#282828;
+    border-top:1px solid #000;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    padding:0 3px 0 1px;
+}
+
+.GotoPageLinkPopDown input {
+    font-size:10px;
+    line-height:10px;
+    text-align:center;
+    width:18px;
+    padding:0;
+}
+
+.DiscussionTabs {
+    border-radius:4px 4px 0 0;
+    height:45px;
+    padding:5px!important;
+}
+
+.HeadingTabs .SubTab {
+    font-size:18px;
+    line-height:1px;
+    font-family:Helvetica,Arial,sans-serif;
+}
+
+.DiscussionHeaderCount {
+    float:right;
+    margin-right:5px;
+}
+
+#DiscussionInfo {
+    float:left;
+    line-height:normal;
+    margin-left:10px;
+}
+
+#DiscussionStats {
+    float:right;
+    line-height:20px;
+    margin-right:10px;
+    width:120px;
+}
+
+#DiscussionStats #Bottom {
+    border-top:1px solid #555;
+}
+
+#DiscussionStats dd {
+    text-align:right;
+    font-size:16px;
+    color:#FFF;
+}
+
+.DiscussionHeaderTop {
+    padding-top:8px;
+}
+
+.DiscussionHeaderBottom {
+    padding-top:10px;
+    border-top:1px solid #777;
+}
+
+.DiscussionHeaderCountSmall {
+    color:#777;
+}
+
+.DiscussionName {
+    font-size:18px;
+    font-family:Helvetica,Arial,sans-serif;
+}
+
+.DiscussionTabDesc {
+    font-size:10px;
+    color:#777;
+}
+
+.DiscussionTabDesc a {
+    color:#777!important;
+    border-bottom:1px dotted #777!important;
+}
+
+.CatHeaders,.DiscussionTabs,#Panel .Header {
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333',endColorstr='#000000')!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000)) !important; /* for webkit browsers */
+    background: -moz-linear-gradient(top,#333333, #000000) !important; /* for firefox 3.6+ */
+    border-bottom:#555;
+    margin-top:10px;
+    border-radius:5px 5px 0 0;
+    padding:2px 0;
+}
+
+.CatHeaders {
+    height:20px;
+}
+
+.MessageForm,.Tabs,.Headings {
+    background:#333;
+    border-bottom:#555;
+    padding:0 0 0 2px;
+}
+
+.CategoryHeadings,.SubTableHeader {
+    text-transform:uppercase;
+}
+
+.ChildCategories,.ChildCategories a {
+    color:#666;
+}
+
+.Item a.Title {
+    font-weight:400!important;
+    font-size:12px;
+}
+
+.Button,.TabLink,.TabLink:link,.TabLink:visited {
+    border-top:1px solid #666;
+    border-right:1px solid #444;
+    border-left:1px solid #444;
+    border-bottom:1px solid #222;
+    color:#fff;
+    position:relative;
+
+    background: -moz-linear-gradient(center top , #333333, #111111) repeat scroll 0 0 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#111)) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000') !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff')"; /* IE8+ */
+    background: none; /* IE7/8 fallback */
+}
+
+.Button:hover,.TabLink:hover {
+    background:none repeat scroll 0 0 #111;
+    border:1px solid #000;
+    color:#FFF;
+}
+
+.DiscussionsInfo li a span,.Tabs li a span,#Menu a span,#Menu li.Active a span,#Menu li.Highlight a:hover span {
+    background:#1E79A7;
+    color:#FFF;
+}
+
+#Menu a span,#Menu li.Active a span,#Menu li.Highlight a:hover span {
+    padding:0 3px;
+}
+
+#Bookmark_List {
+    border-bottom:none;
+}
+
+#Bookmark_List li {
+    border-bottom:1px solid #555;
+}
+
+.Active .TabLink {
+    background:#000 !important;
+    border:1px solid #222;
+    color:#fff;
+}
+
+div.Popup h1,div.Popup h2 {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,#333333, #000000); /* for firefox 3.6+ */
+    border-bottom: 2px solid #000000;
+    border-bottom:2px solid #000;
+}
+
+table.PreferenceGroup tbody td {
+    border-bottom:1px solid #000;
+}
+.PageNav .CatDescription .P{
+    float: none;
+    display: inline;
+}
+.CatDescription {
+    margin-bottom: 5px;
+}
+
+table.PreferenceGroup thead td {
+    border-bottom:1px solid #000;
+    border-top:1px solid #000;
+}
+
+#ThemeCredit {
+    font-size:9px;
+    color:#333;
+}
+
+#tsheader {
+    height:78px;
+    background:url(/images/header_bg.png) repeat-x #030303;
+}
+
+#tsheader_wrap {
+    width:960px;
+    margin:0 auto;
+}
+
+#tslogo {
+    float:left;
+    margin:0 35px 0 15px;
+    padding:8px 0 0;
+}
+
+#tsnav {
+    float:left;
+    border-left:1px solid #24202c;
+}
+
+#tsnav ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#tsnav ul a {
+    color:#eee;
+    font-size:18px;
+    text-decoration:none;
+}
+
+#tsnav ul a:hover {
+    color:#fff;
+    background:url(/images/nav_link_bg_hover.png);
+}
+
+#tsnav ul li a {
+    float:left;
+    background:url(/images/nav_link_bg.png) repeat-x;
+    border-right:1px solid #24202c;
+    padding:28px 35px;
+}
+
+.DiscussionsInfo a,#ProfileBox .Label {
+    color:#666;
+    font-size:11px;
+}
+
+.DiscussionsInfo .Active a,div.AnswerTabs strong,#ProfileBox .Value,#ForumStatsBox .Value,.CategoryDesc,.Popup #Form_Form,div.Popup h1,div.Popup h2,div.Popup h3,div.Popup h4,body.Profile #Form_Invitation ul li label,body.Profile #Form_User ul li label,div.Popup form ul li label,.Close span {
+    color:#FFF;
+}
+
+.CatHide,a.Bookmark span,a.Bookmarking span {
+    display:none;
+}
+
+.CatExpand,#ProfileBox d1,#DiscussionInfo li,#DiscussionStats li {
+    display:block;
+}
+
+.ToggleCat:hover,.QuickNavImage:hover,.SearchFinderImage:hover {
+    cursor:pointer;
+}
+
+.CommentInfo .Author a,.Buttons a,.Tabs a {
+    color:#00ACFF;
+}
+
+.DiscussionsMeta a,.Box a,div.Popup a {
+    color:#0070A6;
+}
+
+#PagerBefore,#PagerAfter,.PageNav .P,.Profile .P {
+    float:right;
+}
+
+#HideMe,.ImageContainer,.PostCount td {
+    float:right;
+}
+
+span.Breadcrumbs,#ProfileBox dt,.ProfilePhotoCategory,.DiscussionsImage,#DiscussionStats dt,body.Discussion a.Bookmark,#tsnav ul li {
+    float:left;
+}
+
+.TableBox .CurrentNumbersHead,.TableBox .Week,.TableBox .Month {
+    width:100px;
+}
+
+.TableBox .WeekTableHead,.TableBox .MonthTableHead,.float_right {
+    text-align:right;
+}
+
+.DataList .ItemContent .Excerpt a,.DiscussionTabDesc a:hover {
+    color:#FFF!important;
+}
+
+.ConversationsTabs,.Conversations,#WithPanel {
+    margin-right:240px !important;
+/*    float: left;  For IE6/7 */
+}
+#WithPanel .AllCat{
+}
+
+
+#PanelHolder{
+}
+
+.ThreadCount,.PostCount {
+    border-left:1px #000 dotted;
+    vertical-align:middle;
+    font-size:20px;
+    text-align:center;
+    width:70px;
+    padding:0 2px;
+}
+
+.DiscussionsOrignalPost,.DiscussionsLatestPost {
+    width:150px;
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+td.DiscussionsReplies,td.DiscussionsViews {
+    border-left:1px #000 dotted;
+    vertical-align:middle;
+    text-align:center;
+    width:50px;
+    padding:0 3px;
+}
+
+a,.Box p,.Activities .Excerpt a,.Activities .Meta a,body.Entry form ul li label {
+    color:#ddd;
+}
+
+body.Entry #Content h1,h1,#DiscussionForm form label,.Activities li.Condensed .Excerpt,.Activities .Excerpt a:hover,.Activities .Meta a:hover {
+    color:#fff;
+}
+
+a.Button,.Button,div.Popup,.PanelInfo .Active a {
+}
+
+.DataList li.Mine .Meta a.Category,.DataList .Meta a.Category {
+    background:#555;
+}
+
+a.BigButton,.Close span:hover,#ThemeCredit a {
+    color:#333;
+}
