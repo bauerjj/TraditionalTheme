@@ -70,26 +70,23 @@ function WriteComment($Object, $Sender, $Session, $CurrentOffset) {
                                 </ul>
                             </div>
                             <?php
-                            if ($Session->CheckPermission('Garden.Moderation.Manage')) {
-                                echo ' ' . IPAnchor($Object->InsertIPAddress) . ' ';
-                            }
-                            ob_start();
-                            $Sender->FireEvent('CommentInfo');
-                            $CommentInfo = ob_get_contents();
-                            ob_end_clean();
-
-                            $doc = new DOMDocument("1.0", "utf-8");
-                            $doc->loadHTML($CommentInfo);
-                            $elements = $doc->getElementsByTagName('span');
-                            $i = 0;
-                            echo '<ul>';
-                            foreach ($elements as $param) {
-                                $node = $elements->item($i);
-                                $text = $doc->saveHTML($node);
-                                echo '<li>' . $text . '</li>';
-                                $i++;
-                            }
-                            echo '</ul>';
+//                            ob_start();
+//                            $Sender->FireEvent('CommentInfo');
+//                            $CommentInfo = ob_get_contents();
+//                            ob_end_clean();
+//
+//                            $doc = new DOMDocument("1.0", "utf-8");
+//                            $doc->loadHTML($CommentInfo);
+//                            $elements = $doc->getElementsByTagName('span');
+//                            $i = 0;
+//                            echo '<ul>';
+//                            foreach ($elements as $param) {
+//                                $node = $elements->item($i);
+//                                $text = $doc->saveHTML($node);
+//                                echo '<li>' . $text . '</li>';
+//                                $i++;
+//                            }
+//                            echo '</ul>';
                             ?>
                         </div>
                         <?php $Sender->FireEvent('AfterCommentMeta'); ?>
@@ -103,11 +100,18 @@ function WriteComment($Object, $Sender, $Session, $CurrentOffset) {
                                     ?>
                                 </span>
                                 <div class="MessageMeta">
-                                    <?php echo WriteOptionList($Object, $Sender, $Session); ?>
+                                    <?php $Sender->FireEvent('CommentInfo'); ?>
+                                    <?php
+
+                          if ($Session->CheckPermission('Garden.Moderation.Manage')) {
+                                echo ' ' . IPAnchor($Object->InsertIPAddress) . ' ';
+                            }
+                             echo WriteOptionList($Object, $Sender, $Session);
+
+                             ?>
                                 </div>
                                 <?php $Sender->FireEvent('AfterMessageMeta'); //added by JJB?>
                             </div>
-                            <br/>
                             <div class="MessagePost">
                                 <?php
                                 $Sender->FireEvent('BeforeCommentBody');

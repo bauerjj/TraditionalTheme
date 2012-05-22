@@ -272,6 +272,7 @@ span.Votes a {
     border-radius:0 0 4px 4px;
     text-align:center;
     font-size:13px;
+    padding-bottom: 10px;
 }
 
 .AuthorInfo ul {
@@ -390,7 +391,7 @@ td.DiscussionsThread .NumberedPager {
     line-height:1px!important;
 }
 
-.MessageMeta a {
+.MessageMeta a, .MessageMeta, .MessageMeta span {
     color:#777!important;
     font-size:11px;
     padding-left:5px;
@@ -457,6 +458,7 @@ td.DiscussionsThread .NumberedPager {
 .MessageList .Meta .Author a {
     font-size:14px;
 }
+
 
 td.CommentInfo {
     max-width:150px;
