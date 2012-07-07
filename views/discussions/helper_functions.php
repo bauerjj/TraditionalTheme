@@ -79,7 +79,7 @@ function WriteDiscussion($Discussion, &$Sender, &$Session, $Alt2) {
                         echo '<div class="DiscussionsMeta">';
                         echo Wrap(UserAnchor($First), 'span', array('class' => 'LastCommentBy'));
                         echo '<br/>';
-                        echo '<span class="LastCommentDate">' . Gdn_Format::Date($Discussion->LastDate) . '</span>';
+                        echo '<span class="LastCommentDate">' . Gdn_Format::Date($Discussion->DateInserted) . '</span>';
                         echo '</div>';
                         echo '</td>';
 
@@ -92,7 +92,7 @@ function WriteDiscussion($Discussion, &$Sender, &$Session, $Alt2) {
                             echo '<div class="DiscussionsMeta">';
                             echo Wrap(UserAnchor($Last), 'span', array('class' => 'LastCommentBy'));
                             echo '<br/>';
-                            echo '<span class="LastCommentDate">' . Gdn_Format::Date($Discussion->LastDate) . '</span>';
+                            echo '<span class="LastCommentDate">' . Gdn_Format::Date($Discussion->DateLastComment) . '</span>';
                             echo '</div>';
                         } else {
                             //no...use original poster info
@@ -101,7 +101,7 @@ function WriteDiscussion($Discussion, &$Sender, &$Session, $Alt2) {
                             echo '<div class="DiscussionsMeta">';
                             echo Wrap(UserAnchor($First), 'span', array('class' => 'LastCommentBy'));
                             echo '<br/>';
-                            echo '<span class="LastCommentDate">' . Gdn_Format::Date($Discussion->LastDate) . '</span>';
+                            echo '<span class="LastCommentDate">' . Gdn_Format::Date($Discussion->DateInserted) . '</span>';
                             echo '</div>';
 
 //                            if ($Source = GetValue('Source', $Discussion)) {
